@@ -4,7 +4,8 @@
 using namespace std;
 
 int main() {
-	float media = 10;
-	cout << "ola " << media << " texto" << endl;
+	float media;
+	cin >> media;
+	cout << "a media de ponstos é: " << media << " pontos" << endl;
 	return 0;
 }
