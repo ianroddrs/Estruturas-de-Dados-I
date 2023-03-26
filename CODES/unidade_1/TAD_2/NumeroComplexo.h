@@ -1,10 +1,9 @@
 typedef struct{
-    int real;
-    int img;
+    float real, img;
 } NumeroComplexo;
 
-NumeroComplexo inicializa(int, int);
+NumeroComplexo inicializa(float, float);
 void imprime(NumeroComplexo);
 void copia(NumeroComplexo*, NumeroComplexo);
-void soma(NumeroComplexo, NumeroComplexo);
+NumeroComplexo soma(NumeroComplexo, NumeroComplexo);
 int ehReal(NumeroComplexo);

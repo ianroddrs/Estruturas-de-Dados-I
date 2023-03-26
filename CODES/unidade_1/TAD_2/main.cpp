@@ -22,9 +22,12 @@ int main(){
     cout << "d = ";
     imprime(d);
 
-    if(ehReal == 0){
-        copia(&d, a);
-    }
+    if (ehReal(d))
+        printf("d eh real\n");
+    else
+        printf("d nao eh real\n");
+
+    return 0;
 
     cout << "d = ";
     imprime(d);
