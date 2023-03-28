@@ -19,4 +19,6 @@ int main(){
 
     cout << "deppois da movimentação " << "/n";
     imprime(conta);
+
+    return 0;
 }

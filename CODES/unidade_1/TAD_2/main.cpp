@@ -27,8 +27,8 @@ int main(){
     else
         printf("d nao eh real\n");
 
-    return 0;
-
     cout << "d = ";
     imprime(d);
+
+    return 0;
 }
