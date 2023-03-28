@@ -16,4 +16,6 @@ int main(){
     else{
         cout << "O numero é zero." << endl;
     }
+
+    return 0;
 }

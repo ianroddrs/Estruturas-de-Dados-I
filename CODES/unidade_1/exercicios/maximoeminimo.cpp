@@ -19,4 +19,5 @@ int main(){
 
     cout << "O maior numero é: " << maior << endl;
 
+    return 0;
 }
