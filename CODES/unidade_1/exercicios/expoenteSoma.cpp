@@ -3,16 +3,22 @@
 using namespace std;
 
 int main(){
-    int b, e, resultado = 1;
+    int b, e, aux,  resultado = 0;
 
     cout << "Digite um numero: ";
     cin >> b;
     cout << "Digite seu expoente: ";
     cin >> e;
 
-    for(int i = 0; i < e; i++){
-        resultado *= b;
+    aux = b;
+
+    for(int i = 1; i < e; i++){
+        for(int j = 0; j < b; j++){
+            resultado += aux;
+        }
+        aux = resultado;
+        resultado = 0;
     }
 
-    cout << "Resultado: " << resultado << endl;
+    cout << "Resultado: " << aux << endl;
 }
